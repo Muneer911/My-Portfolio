@@ -2,6 +2,7 @@ import React from "react";
 import "./HeroStyle.scss";
 import { motion } from "framer-motion";
 
+
 const SliderVariants = {
   initial: {
     x: 0,
@@ -73,7 +74,7 @@ export default function Hero() {
           <motion.img
             variants={textVariants}
             src="../../public/Hands.png"
-            alt=""
+            alt="Programming image"
           />
         </motion.div>
 
