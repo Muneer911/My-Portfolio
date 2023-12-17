@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./portfolioStyle.scss";
+import "./PortfolioStyle.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
