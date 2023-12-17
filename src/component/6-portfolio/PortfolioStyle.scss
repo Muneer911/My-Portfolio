@@ -1,0 +1,128 @@
+@import "../../app.scss";
+
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    padding-top: 20px;
+    text-align: center;
+    color: orange;
+    font-size: 36px;
+    h1{
+        font-family: var(--font-base);
+    }
+   
+
+    .progressBar {
+      height: 7px;
+      background-color: white;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .wrapper {
+      
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      
+
+      .imageContainer {
+        flex: 1;
+        height: 50%;
+
+       
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+          
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+       
+
+        
+
+        h2 {
+          font-size: 68px;
+          font-family: var(--font-base);
+          
+        }
+
+        p {
+          color: gray;
+          font-size: 20px;
+          font-family: var(--font-base);
+         
+        }
+
+        button {
+          background-color: orange;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          margin-top: 20px;
+          width: 200px;
+          cursor: pointer;
+          font-family: var(--font-base);
+        }
+      }
+    }
+  }
+}
+
+$large-size: 1050px;
+@media (max-width: $large-size){
+  .portfolio{
+    .progress{
+      top: 3%;
+      h1{
+        font-size: 50px;
+        width: 300px;
+        margin: auto;
+      }
+    }
+    .container{
+      
+      .wrapper{
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 100px;
+        
+        
+  .imageContainer{
+    margin-top: 16rem;
+  }
+        .textContainer{
+          h2{
+            font-size: 50px;
+          }
+          p{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+.Hero{
+    height: calc(100vh - 70px);
+    
+    
+    background: linear-gradient(100deg, #0c0c1d,#02023e);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+   
+
+    .wrapper{
+        height: 90%;       
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+    
+        .Container{
+        
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items:start;
+                padding-top: 70px;
+                gap: 20px;
+                
+
+                h2{
+                    font-size: 24px;
+                    color: rgb(192, 130, 254);
+                    letter-spacing: 17.5px; 
+                }
+                h1{
+                   font-size: 60px;
+                   font-weight: bold;
+                   font-family: var(--font-base);
+                   
+                }
+                .buttons{
+                    button{
+                        padding: 20px;
+                        background-color: transparent;
+                        color: #fff;
+                        border: 1px solid #fff;
+                        border-radius: 10px;
+                        margin-right: 20px;
+                        cursor: pointer;
+                        z-index: 08088;
+                        font-weight: bold;
+                        font-family: var(--font-base);
+                        transition: .5s ease-in-out;
+    
+                    }
+                    button:hover{
+                        background-color: #ccaaaa;
+                        border: #ccaaaa;
+                        
+    
+                    }
+                    
+
+                
+                }
+                }
+            
+            
+                .imgContainer{
+                    margin-top: 30px;
+                    height: 470px;
+                    width: 470px;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            
+        
+            
+
+        .SlidingTextContainer{
+            position: absolute;
+            font-size: 27vh;
+            bottom: -20px;
+            white-space: nowrap;
+            color: #ffffff09;
+            width: 100%;
+            font-weight: bold;
+        }
+
+
+        }
+        
+}
+
+// $layout-breakpoint-small: 960px;
+// @media (max-width: $layout-breakpoint-small) {
+//   .Hero {
+//     .wrapper {
+//         .Container{
+//             h1{
+//                 font-size: 55px;
+//             }
+//             h2{
+//                 font-size: 30px;
+//                 letter-spacing: 10px;
+//             }
+//         }
+//         .imgContainer{
+//             width: 400px;
+//         }
+//     }
+//   }
+// }
+
+
+// @media only screen and (max-width: 690px) {
+//     .Hero {
+//         .wrapper {
+//             flex-direction: column;
+//             align-items: center;
+
+//             .Container{
+//                 h1{
+//                     font-size: 30px;
+//                 }
+//                 h2{
+//                     font-size: 35px;
+//                     letter-spacing: 15.5px; 
+//                 }
+//             }
+//             .imgContainer{
+//                 width: 300px;
+//             }
+//             .SlidingTextContainer{
+//                 display: none;
+//             }
+//         }
+
+//       }
+// }
+
+$layout-breakpoint-smaller: 450px;
+@media (max-width: $layout-breakpoint-smaller) {
+    .Hero{
+        .wrapper{
+            flex-direction: column;
+            .Container{
+                text-align: center;
+                h1{
+                    font-size: 40px;
+                }
+                h2{
+                    font-size: 24px;
+                    letter-spacing: .4em;
+                }
+            }
+            .imgContainer{
+                width: fit-content;
+            }
+        }
+        .SlidingTextContainer{
+            display: none;
+        }
+    }
+}
+
+
+$layout-breakpoint-large: 750px;
+@media (max-width: $layout-breakpoint-large) {
+    .Hero{
+        .wrapper{
+            flex-direction: column;
+            .Container{
+                text-align: center;
+                padding-top: 40px;
+                h1{
+                    
+                    font-size: 40px;
+                    width: 100%;
+                }
+                h2{
+                    
+                    font-size: 29px;
+                    letter-spacing: .6em;
+                }
+
+                .buttons{
+                    
+                    width: 100%;
+                    padding-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .imgContainer{
+                width: 65%;
+                margin: auto;
+                
+            }
+        }
+        .SlidingTextContainer{
+            display: none;
+        }
+    }
+}
+$layout-breakpoint-large: 799px;
+@media (max-height: $layout-breakpoint-large){
+    .Hero{
+        .wrapper{
+
+            .SlidingTextContainer{
+                display: none;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,28 @@
+.section__padding {
+  padding: 4rem 6rem;
+}
+.nav__padding {
+  padding: 0 6rem;
+}
+$layout-breakpoint-smaller: 450px;
+@media (max-width:$layout-breakpoint-smaller){
+  .nav__padding {
+    padding: 0 3rem;
+  }
+
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__bg {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+

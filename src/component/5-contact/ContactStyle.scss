@@ -1,0 +1,111 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h1 {
+      font-size: 82px;
+      line-height: 88px;
+    }
+    h2,
+    span {
+      font-size: 35px;
+    }
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input,
+      textarea {
+        padding: 29px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+        margin: 10px;
+      }
+
+      button {
+        padding:  20px;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+        cursor: pointer;
+        font-weight: 500;
+        width: 94%;
+        margin: auto;
+      }
+    }
+  }
+}
+$Medium-layout: 915px;
+@media (max-width: $Medium-layout){
+  .contact{
+    flex-direction: column;
+    justify-content: space-evenly;
+    .textContainer{
+      text-align: center;
+      padding: 40px;
+    }
+    .formContainer{
+      form{  
+        width: 700px;
+        height: 600px;
+      }
+    }
+  }
+
+}
+$small-layout: 515px;
+@media (max-width: $small-layout){
+  .contact{
+    .textContainer{
+      h1{
+        font-size: 50px;
+        line-height: 60px;
+      }
+      
+    }
+    .formContainer{
+      form{
+        width: auto;
+        height:auto;
+      }
+    }
+  }
+
+}
+$smaller-layout: 400px;
+@media (max-width: $smaller-layout){
+  .contact{
+    
+    .textContainer{
+      h1{
+        font-size: 40px;
+        line-height: 40px;
+      }
+      
+    }
+    .formContainer{
+      form{
+        textarea,input{
+          
+          padding: 18px;
+        }
+      }
+    }
+  }
+
+}
