@@ -73,7 +73,7 @@ export default function Hero() {
         >
           <motion.img
             variants={textVariants}
-            src="../../public/Hands.png"
+            src="/public/Hands.png"
             alt="Programming image"
           />
         </motion.div>
