@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutStyle.scss";
 import {motion} from 'framer-motion'
-import { js, react, css, sass, html } from "./Icons";
+import { js, react, css, sass, html, github } from "./Icons";
 
 export default function About() {
 
@@ -19,23 +19,27 @@ export default function About() {
 
       <div className="itemsContainer">
           <a href="">
-            <img src={html} alt="" />
+            <img src={html} alt="html-logo" />
           </a>
 
           <a href="">
-            <img src={css} alt="" />
+            <img src={css} alt="css-logo" />
           </a>
         
           <a href="">
-            <img src={sass} alt="" />
+            <img src={sass} alt="scss-logo" />
           </a>  
         
           <a href="">
-            <img src={js} alt="" />
+            <img src={js} alt="javascript-logo" />
           </a>
 
           <a href="">
-            <img src={react} alt="" />
+            <img src={react} alt="react-logo" />
+          </a>
+
+          <a href="">
+            <img src={github} alt="react-logo" />
           </a>
       </div>
     </div>
