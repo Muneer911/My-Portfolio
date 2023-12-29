@@ -2,11 +2,12 @@ import { useRef } from "react";
 import "./PortfolioStyle.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
+
 const items = [
   {
     id: 1,
     title: "Gericht resturant",
-    img: "./public/Wallpaper/Griche.png",
+    img: "../../../public/Wallpaper/Griche.png",
     altg: "Griche restaurant image",
     desc: "Experience modern griche cuisine with our innovative menu and order from our high-skilled chefs.",
     link: "https://gericht-restaurant-website-virid.vercel.app/"
@@ -51,7 +52,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper section__padding">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt={item.altg} />
+            <img src="" alt={item.altg} />
           </div>
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
