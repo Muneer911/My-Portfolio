@@ -7,10 +7,12 @@ import Parallax from "./component/4-parallax/Parallax";
 import Portfolio from "./component/6-portfolio/Portfolio";
 import Contact from "./component/5-contact/Contact";
 import About from "./component/3-about/About";
+
 function App() {
   return (
     <>
       <div>
+      
         <section id="Homepage">
           <Navbar></Navbar>
           <Hero></Hero>
