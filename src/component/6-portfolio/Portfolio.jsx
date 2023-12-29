@@ -1,13 +1,13 @@
 import { useRef } from "react";
 import "./PortfolioStyle.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-
+import { Griche, GPT3, MoiveX } from "./import";
 
 const items = [
   {
     id: 1,
     title: "Gericht resturant",
-    img: "../../../public/Wallpaper/Griche.png",
+    img: Griche ,
     altg: "Griche restaurant image",
     desc: "Experience modern griche cuisine with our innovative menu and order from our high-skilled chefs.",
     link: "https://gericht-restaurant-website-virid.vercel.app/"
@@ -15,7 +15,7 @@ const items = [
   {
     id: 2,
     title: "GPT-3",
-    img: "./public/Wallpaper/GPT3.png",
+    img: GPT3,
     altg: "GPT-3 website image",
     desc: "Unleash the power of AI with our cutting-edge GPT-3 platform.",
     link: "https://chat9.vercel.app/"
@@ -23,7 +23,7 @@ const items = [
   {
     id: 3,
     title: "Movie-x",
-    img: "./public/Wallpaper/MovieX.png",
+    img: MoiveX,
     altg: "Movie-X website image",
     desc: "Dive into cinematic worlds: Explore the hottest new films & serie.",
     link: ""
