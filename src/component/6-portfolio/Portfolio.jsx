@@ -52,7 +52,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper section__padding">
           <div className="imageContainer" ref={ref}>
-            <img src="" alt={item.altg} />
+            <img src={item.img} alt={item.altg} />
           </div>
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
