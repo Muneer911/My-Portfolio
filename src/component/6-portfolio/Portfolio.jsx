@@ -6,21 +6,24 @@ const items = [
   {
     id: 1,
     title: "Gericht resturant",
-    img: "./Griche.png",
+    img: "./public/Wallpaper/Griche.png",
+    altg: "Griche restaurant image",
     desc: "Experience modern griche cuisine with our innovative menu and order from our high-skilled chefs.",
     link: "https://gericht-restaurant-website-virid.vercel.app/"
   },
   {
     id: 2,
     title: "GPT-3",
-    img: "./GPT3.png",
+    img: "./public/Wallpaper/GPT3.png",
+    altg: "GPT-3 website image",
     desc: "Unleash the power of AI with our cutting-edge GPT-3 platform.",
     link: "https://chat9.vercel.app/"
   },
   {
     id: 3,
     title: "Movie-x",
-    img: "./MovieX.png",
+    img: "./public/Wallpaper/MovieX.png",
+    altg: "Movie-X website image",
     desc: "Dive into cinematic worlds: Explore the hottest new films & serie.",
     link: ""
   },
@@ -28,6 +31,7 @@ const items = [
     id: 4,
     title: "MV e-commere",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    altg: "MV website image",
     desc: "Coming soon...",
     link: ""
   },
@@ -47,7 +51,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper section__padding">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            <img src={item.img} alt={item.altg} />
           </div>
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
