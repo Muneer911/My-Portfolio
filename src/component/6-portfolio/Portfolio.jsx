@@ -6,21 +6,21 @@ const items = [
   {
     id: 1,
     title: "Gericht resturant",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "./public/Wallpaper/Griche.png",
     desc: "Experience modern griche cuisine with our innovative menu and order from our high-skilled chefs.",
     link: "https://gericht-restaurant-website-virid.vercel.app/"
   },
   {
     id: 2,
-    title: "Chat9 landing-page",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "GPT-3",
+    img: "./public/Wallpaper/GPT3.png",
     desc: "Unleash the power of AI with our cutting-edge GPT-3 platform.",
     link: "https://chat9.vercel.app/"
   },
   {
     id: 3,
     title: "Movie-x",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "./public/Wallpaper/MovieX.png",
     desc: "Dive into cinematic worlds: Explore the hottest new films & serie.",
     link: ""
   },
