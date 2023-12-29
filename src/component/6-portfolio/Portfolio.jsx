@@ -6,21 +6,21 @@ const items = [
   {
     id: 1,
     title: "Gericht resturant",
-    img: "./public/Wallpaper/Griche.png",
+    img: "./Griche.png",
     desc: "Experience modern griche cuisine with our innovative menu and order from our high-skilled chefs.",
     link: "https://gericht-restaurant-website-virid.vercel.app/"
   },
   {
     id: 2,
     title: "GPT-3",
-    img: "./public/Wallpaper/GPT3.png",
+    img: "./GPT3.png",
     desc: "Unleash the power of AI with our cutting-edge GPT-3 platform.",
     link: "https://chat9.vercel.app/"
   },
   {
     id: 3,
     title: "Movie-x",
-    img: "./public/Wallpaper/MovieX.png",
+    img: "./MovieX.png",
     desc: "Dive into cinematic worlds: Explore the hottest new films & serie.",
     link: ""
   },
