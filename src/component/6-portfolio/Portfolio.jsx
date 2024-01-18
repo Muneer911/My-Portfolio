@@ -1,5 +1,5 @@
-import { useRef } from "react";
 import "./PortfolioStyle.scss";
+import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { Griche, GPT3, MoiveX } from "./import";
 
