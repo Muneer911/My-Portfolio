@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <div>
-      
         <section id="Homepage">
           <Navbar></Navbar>
           <Hero></Hero>
@@ -24,8 +23,7 @@ function App() {
           <Parallax />
         </section>
         <div id="Portfolio">
-
-        <Portfolio />
+          <Portfolio />
         </div>
         <section id="Contact">
           <Contact />
