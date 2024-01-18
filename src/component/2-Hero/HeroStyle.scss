@@ -105,53 +105,6 @@
         
 }
 
-// $layout-breakpoint-small: 960px;
-// @media (max-width: $layout-breakpoint-small) {
-//   .Hero {
-//     .wrapper {
-//         .Container{
-//             h1{
-//                 font-size: 55px;
-//             }
-//             h2{
-//                 font-size: 30px;
-//                 letter-spacing: 10px;
-//             }
-//         }
-//         .imgContainer{
-//             width: 400px;
-//         }
-//     }
-//   }
-// }
-
-
-// @media only screen and (max-width: 690px) {
-//     .Hero {
-//         .wrapper {
-//             flex-direction: column;
-//             align-items: center;
-
-//             .Container{
-//                 h1{
-//                     font-size: 30px;
-//                 }
-//                 h2{
-//                     font-size: 35px;
-//                     letter-spacing: 15.5px; 
-//                 }
-//             }
-//             .imgContainer{
-//                 width: 300px;
-//             }
-//             .SlidingTextContainer{
-//                 display: none;
-//             }
-//         }
-
-//       }
-// }
-
 $layout-breakpoint-smaller: 450px;
 @media (max-width: $layout-breakpoint-smaller) {
     .Hero{
