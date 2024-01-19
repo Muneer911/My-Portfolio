@@ -1,7 +1,5 @@
 import emailjs from "@emailjs/browser";
-
 import { useState } from "react";
-
 
 export const useEmail = (form) => {
   const [state, setState] = useState("");
@@ -15,13 +13,8 @@ export const useEmail = (form) => {
         "service_90hbt0h",
         "template_5l6imjq",
         form.current,
-
-
         import.meta.env.VITE_EMAILJS_PU
-
-
       )
-
       .then(
         () => {
           setState("success");
