@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="navbar">
       <SideBar />
       <div className="wrapper nav__padding">
-        <span>RAMEZ</span>
+        <span>MUNEER</span>
 
         <div className="social">
           <a href="https://github.com/Ramez991">
