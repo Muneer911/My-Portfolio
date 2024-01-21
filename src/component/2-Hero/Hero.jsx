@@ -49,7 +49,7 @@ export default function Hero() {
           animate="animate"
           className="Container"
         >
-          <motion.h2>RAMEZ THE CREATOR</motion.h2>
+          <motion.h2>MUNEER THE CREATOR</motion.h2>
           <motion.h1 variants={textVariants}>Front-end developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <a href="#Portfolio">
@@ -84,7 +84,7 @@ export default function Hero() {
           animate="animate"
           className="SlidingTextContainer"
         >
-          React Developer
+          Web Developer
         </motion.div>
       </div>
     </div>
