@@ -28,9 +28,9 @@ const itemVariants = {
 export default function Link() {
   const items = [
     "Homepage",
+    "About",
     "Portfolio",
-    "Contact",
-    "About"
+    "Contact"
   ];
   return (
     <motion.div className='links' variants={variants} >
@@ -45,4 +45,5 @@ export default function Link() {
       
     </motion.div>
   )
+  
 }
