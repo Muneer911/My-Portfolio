@@ -26,7 +26,7 @@ const items = [
     img: MoiveX,
     altg: "Movie-X website image",
     desc: "Dive into cinematic worlds: Explore the hottest new films & serie.",
-    link: ""
+    link: "https://moviexpro.vercel.app/"
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             
-              <a href={item.link}>
+              <a href={item.link} target="_blank">
             <button>
               See Demo
             </button>
