@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div className="contact section__padding">
       <div className="textContainer">
-        <h1>Let's work together</h1>
+        <h1>Let's connect together</h1>
       </div>
 
       <div className="formContainer">
