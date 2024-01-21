@@ -13,7 +13,7 @@ export const useEmail = (form) => {
         "service_90hbt0h",
         "template_5l6imjq",
         form.current,
-        import.meta.env.EMAILJS_KEY
+        import.meta.env.VITE_EMAILJS_PU
       )
 
       .then(
