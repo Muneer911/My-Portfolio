@@ -10,13 +10,13 @@ export default function Navbar() {
         <span>MUNEER</span>
 
         <div className="social">
-          <a href="https://github.com/Ramez991">
+          <a target="_blank" href="https://github.com/Muneer911">
             <img src="/GitHub.png" alt="f-logo" />
           </a>
-          <a href="https://twitter.com/AeMD911">
+          <a target="_blank" href="https://twitter.com/muneer9110">
             <img src="/X.png" alt="X-logo" />
           </a>
-          <a href="#">
+          <a target="_blank" href="#">
             <img src="/Linkedin.png" alt="Linkedin-logo" />
           </a>
         </div>
