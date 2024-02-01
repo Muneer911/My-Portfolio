@@ -16,9 +16,6 @@ export default function Navbar() {
           <a target="_blank" href="https://twitter.com/muneer9110">
             <img src="/X.png" alt="X-logo" />
           </a>
-          <a target="_blank" href="#">
-            <img src="/Linkedin.png" alt="Linkedin-logo" />
-          </a>
         </div>
       </div>
     </div>
